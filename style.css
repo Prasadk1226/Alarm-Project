@@ -131,6 +131,10 @@ input:checked[type="checkbox"]::before {
   /* padding-top: 10px; */
 }
 
+.inactiveAlarms{
+  width: 100vw;
+}
+
 .firstAlarm {
   display: flex;
   justify-content: space-between;
