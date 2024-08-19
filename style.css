@@ -101,6 +101,12 @@ input:checked[type="checkbox"]::before {
   font-size: medium;
   font-weight: 50;
 }
+input[type=time]{
+  font-size: 50px;
+  color: rgb(119, 119, 119);
+  border: 0px solid;
+  background-color: #22222200;
+}
 hr{
     border: none; border-top: 0.1px solid #222222;
 }
