@@ -49,6 +49,48 @@ input:checked[type="checkbox"]::before {
   width: 100%;
   background-color: rgb(0, 0, 0);
 }
+.timeContiner{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.clock{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.clock span{
+  color: greenyellow;
+  font-size: 60px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.clock span::after{
+  
+  color:greenyellow;
+  font-size: 16px;
+  position: absolute;
+  bottom: -15px;
+  left: 70%;
+  transform: translateX(-50%);
+}
+#hrs::after{
+  content: 'HOURS';
+
+}
+#mnts::after{
+  content: 'MINUTES';
+
+}
+#secs::after{
+  content: 'SECONDS';
+
+}
+
 
 .navBar {
   color: goldenrod;
