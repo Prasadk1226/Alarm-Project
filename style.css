@@ -144,6 +144,7 @@ input:checked[type="checkbox"]::before {
   font-weight: 50;
 }
 input[type=time]{
+  width: 250px;
   font-size: 50px;
   color: rgb(119, 119, 119);
   border: 0px solid;
