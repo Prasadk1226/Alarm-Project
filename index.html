@@ -9,19 +9,20 @@
   <body>
     <div class="container">
       <div class="inner-container">
+        <div class="timeContainer">
+          <div class="clock">
+            <span id="hrs">00</span>
+            <span> :</span>
+            <span id="mnts">00</span>
+            <span> :</span>
+            <span id="secs">00</span>
+          </div>
+        </div>
         <div class="navBar">
           <h4 class="navText">Edit</h4>
           <h4 class="navText">+</h4>
         </div>
-        <div class="timeContainer">
-          <div class="clock">
-            <span id="hrs">00</span>
-            <span>:</span>
-            <span id="mnts">00</span>
-            <span>:</span>
-            <span id="secs">00</span>
-          </div>
-        </div>
+        
         <div class="textContainer">
           <p class="mainText1">Alarms</p>
           <p class="mainText2">Sleep | Wake Up</p>
@@ -42,7 +43,9 @@
                 <label for="check" class="button1"></label>
               </div>
             </div><hr>
-            <div class="firstAlarm second">
+
+
+            <!-- <div class="firstAlarm second">
               <div class="timeCon">
                 <input type="time" name="" id="alarm2" class="setAlarm">
                 <h5 class="textBelow">Alarm, every weekday</h5>
@@ -101,7 +104,9 @@
                 <input type="checkbox" id="check7" />
                 <label for="check" class="button1"></label>
               </div>
-            </div><hr>
+            </div><hr> -->
+
+
           </div>
           <audio src="./old_alarm_sound.mp3" controls style="display: none;" class="ring" ></audio>
         </div>
