@@ -20,7 +20,7 @@
         </div>
         <div class="navBar">
           <h4 class="navText">Edit</h4>
-          <h4 class="navText">+</h4>
+          <h6 class="navText" id="addBtn">+ADD ALARM</h6>
         </div>
         
         <div class="textContainer">
@@ -33,19 +33,22 @@
           </div><hr>
           <br />
           <div class="inactiveAlarms">
-            <div class="firstAlarm first">
+            <div class="firstAlarm first" id="ringAlarm">
               <div class="timeCon">
-                <input type="time" name="" id="alarm1" class="setAlarm">
+                <!-- <input type="time" name="" id="alarm1" class="setAlarm"> -->
+                 <input type="number" placeholder="00" id="hours" min="00"  max="23"> :
+                 <input type="number" placeholder="00" id="mins" min="00" max="59" >
                 <h5 class="textBelow">Alarm, every weekday</h5>
               </div>
               <div>
                 <input type="checkbox" id="check1" />
                 <label for="check" class="button1"></label>
+                <span id="deleteBtn"><img src="./deletesym.png"  height="50px" style=" filter: invert(100%);" alt=""></span>
               </div>
-            </div><hr>
+            </div><hr>            
 
-
-            <!-- <div class="firstAlarm second">
+<!--
+            <div class="firstAlarm second">
               <div class="timeCon">
                 <input type="time" name="" id="alarm2" class="setAlarm">
                 <h5 class="textBelow">Alarm, every weekday</h5>

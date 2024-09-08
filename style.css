@@ -155,11 +155,11 @@ input:checked[type="checkbox"]::before {
   font-size: medium;
   font-weight: 50;
 }
-input[type=time]{
+input[type=number]{
   text-align: center;
-  width: 200px;
+  width: 80px;
   font-size: 50px;
-  color: rgb(119, 119, 119);
+  color: rgb(255, 255, 255);
   border: 0px solid;
   background-color: #22222200;
 }
